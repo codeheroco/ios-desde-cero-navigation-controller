@@ -16,6 +16,10 @@
 		5570E7D9179CC330006EF991 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5570E7D8179CC330006EF991 /* Default.png */; };
 		5570E7DB179CC330006EF991 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5570E7DA179CC330006EF991 /* Default@2x.png */; };
 		5570E7DD179CC330006EF991 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5570E7DC179CC330006EF991 /* Default-568h@2x.png */; };
+		5570E7E6179CCACD006EF991 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570E7E4179CCACD006EF991 /* MainViewController.m */; };
+		5570E7E7179CCACD006EF991 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5570E7E5179CCACD006EF991 /* MainViewController.xib */; };
+		5570E7EB179CD264006EF991 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5570E7E9179CD264006EF991 /* NextViewController.m */; };
+		5570E7EC179CD264006EF991 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5570E7EA179CD264006EF991 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,12 @@
 		5570E7D8179CC330006EF991 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5570E7DA179CC330006EF991 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5570E7DC179CC330006EF991 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5570E7E3179CCACD006EF991 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5570E7E4179CCACD006EF991 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5570E7E5179CCACD006EF991 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		5570E7E8179CD264006EF991 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		5570E7E9179CD264006EF991 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		5570E7EA179CD264006EF991 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,12 @@
 			children = (
 				5570E7D5179CC330006EF991 /* AppDelegate.h */,
 				5570E7D6179CC330006EF991 /* AppDelegate.m */,
+				5570E7E3179CCACD006EF991 /* MainViewController.h */,
+				5570E7E4179CCACD006EF991 /* MainViewController.m */,
+				5570E7E5179CCACD006EF991 /* MainViewController.xib */,
+				5570E7E8179CD264006EF991 /* NextViewController.h */,
+				5570E7E9179CD264006EF991 /* NextViewController.m */,
+				5570E7EA179CD264006EF991 /* NextViewController.xib */,
 				5570E7CD179CC330006EF991 /* Supporting Files */,
 			);
 			path = Navigation;
@@ -154,6 +170,8 @@
 				5570E7D9179CC330006EF991 /* Default.png in Resources */,
 				5570E7DB179CC330006EF991 /* Default@2x.png in Resources */,
 				5570E7DD179CC330006EF991 /* Default-568h@2x.png in Resources */,
+				5570E7E7179CCACD006EF991 /* MainViewController.xib in Resources */,
+				5570E7EC179CD264006EF991 /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				5570E7D3179CC330006EF991 /* main.m in Sources */,
 				5570E7D7179CC330006EF991 /* AppDelegate.m in Sources */,
+				5570E7E6179CCACD006EF991 /* MainViewController.m in Sources */,
+				5570E7EB179CD264006EF991 /* NextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

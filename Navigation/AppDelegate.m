@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Codehero. All rights reserved.
 //
 
+#import "MainViewController.h"
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -13,7 +15,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    // 1
+    MainViewController *mainView = [[MainViewController alloc] initWithNibName:nil
+                                                                        bundle:nil];
+    
+    // 2
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainView];
+    
+    // 3
+    [self.window setRootViewController:navigationController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
